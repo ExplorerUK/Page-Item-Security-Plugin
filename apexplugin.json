@@ -1,0 +1,35 @@
+{
+  "name" : "Page Item Security",
+  "version" : "19.2.0",
+  "description" : "Provides DOM manipulation tamper protection against Page Items",
+  "keywords" : ["page","items"],
+  "homepage" : "https://github.com/ExplorerUK/Page-Item-Security-Plugin",
+  "bugs" : {
+    "url" : "https://github.com/ExplorerUK/Page-Item-Security-Plugin/issues",
+    "email" : "matt.mulvaney@explorer.uk.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Matt Mulvaney",
+    "email" : "matt.mulvaney@explorer.uk.com",
+    "url" : "https://explorer.co.uk/blog",
+    "twitter" : "Matt_Mulvaney",
+    "donationUrl" : "https://www.justgiving.com/saintmichaelshospice"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ExplorerUK/Page-Item-Security-Plugin.git"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["19.1.0","19.2.0"],
+      "plugin" : {
+        "internalName" : "COM.UK.EXPLORER.APRIS",
+        "type" : "process",
+        "demo" : "https://apex.oracle.com/",
+        "previewImage" : "https://raw.githubusercontent.com/ExplorerUK/Page-Item-Security-Plugin/master/preview.gif"
+      }
+    }
+  }
+}

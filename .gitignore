@@ -1,0 +1,5 @@
+f*.sql filter=gitignore
+src/apps/apex/i
+.vscode
+*.log
+.DS_Store

@@ -1,0 +1,45 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "vt": "writable",
+        "apx": "writable",
+        "apex": "readonly",
+        "$": "readonly",
+        "$v": "readonly",
+        "$s": "readonly",
+        "CodeMirror": "readonly",
+        "Mousetrap": "readonly",
+        "clipboard": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 5
+    },
+    "rules": {
+        "indent": [
+            "error",
+            2,
+            {
+				"SwitchCase": 1,
+				"VariableDeclarator": 2
+			}
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
